@@ -1,0 +1,24 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
+@use '../base/utils' as utils;
+
+  *  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var.$police-principale;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+}

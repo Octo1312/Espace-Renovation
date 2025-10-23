@@ -6,8 +6,69 @@
   font-family: "Lato Bold";
   src: url(../fonts/Lato-Bold.ttf);
 }
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato Regular", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  border-radius: 1rem;
+  background-color: #112E3E;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+
 header {
-  font-family: "Lato Regular";
+  background-color: #112E3E;
+}
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25%;
+  padding: 2.5% 0;
+}
+header .nav .nav-text {
+  display: flex;
+  gap: 10%;
+}
+header .nav .nav-text li a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+header .nav .nav-text li:after {
+  content: "";
+  border-left: 2px solid #FFFFFF;
+  margin-left: 2em;
+}
+
+#hero {
+  background-image: url(../img/PictoBureaux.png);
 }
 
 /*# sourceMappingURL=styles.css.map */
