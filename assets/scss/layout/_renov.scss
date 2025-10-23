@@ -1,0 +1,8 @@
+@use 'base/utils' as uti;
+@use 'abstracts/mixins' as mix;
+@use 'abstracts/variables' as var;
+
+#renov .container {
+    color: var.$couleur-principale;
+    text-align: center;
+}

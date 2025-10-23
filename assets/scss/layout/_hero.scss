@@ -1,5 +1,12 @@
 @use '../abstracts/variables' as var;
 
 #hero {
-    background-image: url(../img/PictoBureaux.png);
+  background-image: url(../img/BANNIERE.jpg);
+  color: var.$white;
+  padding: 60px 0;
+  height: 500px;  
+  span {
+    color: gold;
+  }
 }
+

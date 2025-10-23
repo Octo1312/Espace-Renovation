@@ -68,7 +68,13 @@ header .nav .nav-text li:after {
 }
 
 #hero {
-  background-image: url(../img/PictoBureaux.png);
+  background-image: url(../img/BANNIERE.jpg);
+  color: #FFFFFF;
+  padding: 60px 0;
+  height: 500px;
+}
+#hero span {
+  color: gold;
 }
 
 /*# sourceMappingURL=styles.css.map */
