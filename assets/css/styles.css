@@ -124,8 +124,39 @@ header .nav .nav-text li:after {
   color: #EFD75E;
 }
 
+#nouscontacter .container {
+  color: #112E3E;
+  text-align: center;
+}
+#nouscontacter .container h2 {
+  font-size: 2.5rem;
+}
+#nouscontacter .container p {
+  font-size: 1.5rem;
+}
+#nouscontacter .container .cards {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin: 10% 0;
+}
+#nouscontacter .container .cards .card {
+  width: 30%;
+}
+#nouscontacter .container .cards .card h2 {
+  font-size: 1.5rem;
+}
+#nouscontacter .container .cards .card p {
+  font-size: 1rem;
+  margin: 10px;
+}
+#nouscontacter .container .cards .card a {
+  color: #112E3E;
+}
+
 #realisation {
   padding: 5% 0;
+  color: #112E3E;
 }
 #realisation .container {
   text-align: center;
