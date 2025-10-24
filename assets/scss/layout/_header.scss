@@ -2,7 +2,7 @@
 
 header {
     background-color: var.$couleur-principale;
-    font-family: "Lato Regular";
+    font-family: var.$police-principale;
     .nav {
         display: flex;
         align-items: center;

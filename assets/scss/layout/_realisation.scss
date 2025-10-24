@@ -5,7 +5,7 @@
 #realisation {
     padding: 5% 0;
     color: var.$couleur-principale;
-    font-family: "Leto Regular";
+    font-family: var.$police-principale;
     .container {
         text-align: center;
         h2 {
@@ -18,8 +18,9 @@
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
+            justify-content: space-evenly;
             .card {
-                width: 30%;
+                width: 32%;
                 margin-bottom: 2%;
                 .card-img {
                     max-height: 100%;
@@ -31,9 +32,6 @@
                     }
                 }
             }
-        }
-        .btn {
-            font-family: "Lato Regular";
         }
     }
 }

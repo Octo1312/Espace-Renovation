@@ -129,7 +129,7 @@ footer .container .contactus p {
 
 header {
   background-color: #112E3E;
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
 }
 header .nav {
   display: flex;
@@ -155,7 +155,7 @@ header .nav .nav-text li:after {
 #hero {
   background-image: url(../img/BANNIERE.jpg);
   color: #FFFFFF;
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   padding: 60px 0;
   height: 50vh;
 }
@@ -174,7 +174,7 @@ header .nav .nav-text li:after {
 
 #nouscontacter .container {
   color: #112E3E;
-  font-family: "Leto Regular";
+  font-family: "Lato Regular", sans-serif;
   text-align: center;
 }
 #nouscontacter .container h2 {
@@ -206,7 +206,7 @@ header .nav .nav-text li:after {
 #realisation {
   padding: 5% 0;
   color: #112E3E;
-  font-family: "Leto Regular";
+  font-family: "Lato Regular", sans-serif;
 }
 #realisation .container {
   text-align: center;
@@ -221,9 +221,10 @@ header .nav .nav-text li:after {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  justify-content: space-evenly;
 }
 #realisation .container .cards .card {
-  width: 30%;
+  width: 32%;
   margin-bottom: 2%;
 }
 #realisation .container .cards .card .card-img {
@@ -235,14 +236,11 @@ header .nav .nav-text li:after {
 #realisation .container .cards .card .card-text > * h3 {
   padding: 5% 0;
 }
-#realisation .container .btn {
-  font-family: "Lato Regular";
-}
 
 #renov .container {
   text-align: center;
   color: #112E3E;
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
 }
 #renov .container .renovtop h2 {
   font-size: 3rem;
