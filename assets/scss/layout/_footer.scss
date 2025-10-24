@@ -1,0 +1,49 @@
+@use '../base/utils' as uti;
+@use '../abstracts/mixins' as mix;
+@use '../abstracts/variables' as var;
+
+footer {
+    background-color: var.$couleur-principale;
+    color: var.$white;
+    font-family: var.$police-principale;
+    padding-top: 2%;
+    h2 {
+        font-weight: 200;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+        .footerleft {
+            display: flex;
+            gap: 5%;
+            align-items: center;
+            h2 {
+                font-weight: 200;
+                padding: 0.5%;
+                margin-top: 0;
+                text-align: start;
+            }
+        }
+        .contactus {
+            border-left: 1px solid var.$white;
+            padding-left: 2%;
+            width: 40%;
+            font-family: var.$police-secondaire;
+            h2 {
+                margin-top: 0;
+                margin-bottom: 8%;
+                text-align: start;
+                font-size: 1.2rem;
+            }
+            p {
+                margin: 0;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

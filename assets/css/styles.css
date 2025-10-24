@@ -81,8 +81,55 @@ ul {
   width: 30vh;
 }
 
+footer {
+  background-color: #112E3E;
+  color: #FFFFFF;
+  font-family: "Lato Regular", sans-serif;
+  padding-top: 2%;
+}
+footer h2 {
+  font-weight: 200;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+footer .container .footerleft {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+footer .container .footerleft h2 {
+  font-weight: 200;
+  padding: 0.5%;
+  margin-top: 0;
+  text-align: start;
+}
+footer .container .contactus {
+  border-left: 1px solid #FFFFFF;
+  padding-left: 2%;
+  width: 40%;
+  font-family: "Lato Bold", sans-serif;
+}
+footer .container .contactus h2 {
+  margin-top: 0;
+  margin-bottom: 8%;
+  text-align: start;
+  font-size: 1.2rem;
+}
+footer .container .contactus p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
 header {
   background-color: #112E3E;
+  font-family: "Lato Regular";
 }
 header .nav {
   display: flex;
@@ -108,6 +155,7 @@ header .nav .nav-text li:after {
 #hero {
   background-image: url(../img/BANNIERE.jpg);
   color: #FFFFFF;
+  font-family: "Lato Regular";
   padding: 60px 0;
   height: 50vh;
 }
@@ -126,6 +174,7 @@ header .nav .nav-text li:after {
 
 #nouscontacter .container {
   color: #112E3E;
+  font-family: "Leto Regular";
   text-align: center;
 }
 #nouscontacter .container h2 {
@@ -157,6 +206,7 @@ header .nav .nav-text li:after {
 #realisation {
   padding: 5% 0;
   color: #112E3E;
+  font-family: "Leto Regular";
 }
 #realisation .container {
   text-align: center;
@@ -174,18 +224,25 @@ header .nav .nav-text li:after {
 }
 #realisation .container .cards .card {
   width: 30%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 #realisation .container .cards .card .card-img {
   max-height: 100%;
 }
 #realisation .container .cards .card .card-text > * {
-  margin: 1%;
+  margin: 5%;
+}
+#realisation .container .cards .card .card-text > * h3 {
+  padding: 5% 0;
+}
+#realisation .container .btn {
+  font-family: "Lato Regular";
 }
 
 #renov .container {
   text-align: center;
   color: #112E3E;
+  font-family: "Lato Regular";
 }
 #renov .container .renovtop h2 {
   font-size: 3rem;
