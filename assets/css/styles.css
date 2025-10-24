@@ -28,6 +28,7 @@ a {
 
 img {
   object-fit: cover;
+  max-width: 100%;
 }
 
 ul {
@@ -40,7 +41,8 @@ ul {
   color: #FFFFFF;
   text-align: center;
   display: inline-block;
-  padding: 1%;
+  padding: 2%;
+  width: 30vh;
 }
 .btn--secondary {
   border-radius: 1rem;
@@ -48,7 +50,8 @@ ul {
   color: #112E3E;
   text-align: center;
   display: inline-block;
-  padding: 1%;
+  padding: 2%;
+  width: 30vh;
 }
 .btn--tertiary {
   border-radius: 1rem;
@@ -56,7 +59,8 @@ ul {
   color: #112E3E;
   text-align: center;
   display: inline-block;
-  padding: 1%;
+  padding: 2%;
+  width: 30vh;
 }
 .btn--outline {
   border-radius: 1rem;
@@ -64,7 +68,8 @@ ul {
   color: #112E3E;
   text-align: center;
   display: inline-block;
-  padding: 1%;
+  padding: 2%;
+  width: 30vh;
 }
 .btn--random {
   border-radius: 1rem;
@@ -72,7 +77,8 @@ ul {
   color: #112E3E;
   text-align: center;
   display: inline-block;
-  padding: 1%;
+  padding: 2%;
+  width: 30vh;
 }
 
 header {
@@ -116,6 +122,34 @@ header .nav .nav-text li:after {
 }
 #hero .container h1 span {
   color: #EFD75E;
+}
+
+#realisation {
+  padding: 5% 0;
+}
+#realisation .container {
+  text-align: center;
+}
+#realisation .container h2 {
+  font-size: 2rem;
+}
+#realisation .container p {
+  font-size: 1.5rem;
+}
+#realisation .container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+#realisation .container .cards .card {
+  width: 30%;
+  margin-bottom: 5%;
+}
+#realisation .container .cards .card .card-img {
+  max-height: 100%;
+}
+#realisation .container .cards .card .card-text > * {
+  margin: 1%;
 }
 
 #renov .container {
