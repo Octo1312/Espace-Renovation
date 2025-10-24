@@ -1,10 +1,23 @@
 @use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mix;
 
 .btn {
-    border-radius: 1rem;
-    background-color: var.$couleur-principale;
-    color: white;
-    text-align: center;
-    display: inline-block;
-    padding: 1%;
+    @include mix.btn(var.$white, var.$couleur-principale);
+
+    &--secondary {
+           @include mix.btn(var.$couleur-principale, var.$white) 
+    }
+
+    &--tertiary {
+           @include mix.btn(var.$couleur-principale, var.$white) 
+    }
+
+    &--outline {
+           @include mix.btn(var.$couleur-principale, var.$white) 
+    }
+
+    &--random {
+           @include mix.btn(var.$couleur-principale, var.$white) 
+    }
+
 }

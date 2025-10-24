@@ -4,9 +4,20 @@
   background-image: url(../img/BANNIERE.jpg);
   color: var.$white;
   padding: 60px 0;
-  height: 500px;  
-  span {
-    color: gold;
+  height: 50vh;
+
+  .container {
+    display:flex; 
+    justify-content: left;
+    height: 100%;
+    align-items: center;
+
+    h1 {
+      font-size: 3rem;
+      span {
+        color: var.$couleur-secondaire
+      } 
+    } 
   }
 }
 

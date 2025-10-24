@@ -8,7 +8,7 @@
 }
 .container {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -37,7 +37,39 @@ ul {
 .btn {
   border-radius: 1rem;
   background-color: #112E3E;
-  color: white;
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+.btn--secondary {
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  color: #112E3E;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+.btn--tertiary {
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  color: #112E3E;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+.btn--outline {
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  color: #112E3E;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+}
+.btn--random {
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  color: #112E3E;
   text-align: center;
   display: inline-block;
   padding: 1%;
@@ -71,10 +103,54 @@ header .nav .nav-text li:after {
   background-image: url(../img/BANNIERE.jpg);
   color: #FFFFFF;
   padding: 60px 0;
-  height: 500px;
+  height: 50vh;
 }
-#hero span {
-  color: gold;
+#hero .container {
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  align-items: center;
+}
+#hero .container h1 {
+  font-size: 3rem;
+}
+#hero .container h1 span {
+  color: #EFD75E;
+}
+
+#renov .container {
+  text-align: center;
+  color: #112E3E;
+}
+#renov .container .renovtop h2 {
+  font-size: 3rem;
+}
+#renov .container .renovtop h3 {
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+#renov .container .renovtop p {
+  margin-bottom: 5%;
+}
+#renov .container .renovtop p span {
+  font-weight: bold;
+}
+#renov .container .card {
+  display: flex;
+  margin-bottom: 5%;
+  gap: 5%;
+}
+#renov .container .card .card-devis {
+  width: 33%;
+}
+#renov .container .card .card-renovamenagement {
+  width: 33%;
+}
+#renov .container .card .card-conseil {
+  width: 33%;
+}
+#renov .container .btn {
+  padding: 2%;
 }
 
 /*# sourceMappingURL=styles.css.map */

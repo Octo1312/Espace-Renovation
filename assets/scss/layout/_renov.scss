@@ -1,8 +1,51 @@
-@use 'base/utils' as uti;
-@use 'abstracts/mixins' as mix;
-@use 'abstracts/variables' as var;
+@use '../base/utils' as uti;
+@use '../abstracts/mixins' as mix;
+@use '../abstracts/variables' as var;
 
-#renov .container {
-    color: var.$couleur-principale;
-    text-align: center;
+#renov {
+    .container {
+        text-align: center;
+        color: var.$couleur-principale;
+
+        .renovtop {
+            h2 {
+                font-size: 3rem;
+            }
+
+            h3 {
+                font-weight: 400;
+                padding-bottom: 2%;
+            }
+
+            p {
+                margin-bottom: 5%;
+                
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .card {
+            display: flex;
+            margin-bottom: 5%;
+            gap: 5%;
+            
+            .card-devis {
+                width: 33%;
+            }
+
+            .card-renovamenagement {
+                width: 33%;
+            }
+
+            .card-conseil {
+                width: 33%;
+            }
+        }
+
+        .btn {
+            padding: 2%;
+        }
+    }
 }
